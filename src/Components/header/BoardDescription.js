@@ -1,5 +1,7 @@
 import React from 'react';
 import NewBoardName from './NewBoardName';
+import './../../Styles/header.scss';
+
 
 export default class BoardDescription extends React.Component {
     constructor() {
