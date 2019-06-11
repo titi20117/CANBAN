@@ -15,7 +15,7 @@ export default class BoardDescription extends React.Component {
     render() {
         return(
             <div className="App__header__title">
-                <div onClick={this.handleClick}>
+                <div onClick={this.handleClick} className="App__header__title__name">
                     <span>Board Name</span>
                 </div>
                 <NewBoardName show={this.state.display}/>
